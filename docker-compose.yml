@@ -1,5 +1,5 @@
 services:
-  PlayerActiviyDB:
+  PlayerActivityDB:
     image: postgres:latest
     container_name: player_game_scores
     environment:
