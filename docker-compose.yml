@@ -5,6 +5,7 @@ services:
     environment:
       POSTGRES_USER: datamanager
       POSTGRES_PASSWORD: password
+      POSTGRES_DB: player_activity
     ports:
       - "5432:5432"
     volumes:
