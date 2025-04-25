@@ -19,7 +19,7 @@ services:
     ports:
       - "8080:80"
     depends_on:
-      - PlayerActiviyDB
+      - PlayerActivityDB
 
 volumes:
   postgres_data:
