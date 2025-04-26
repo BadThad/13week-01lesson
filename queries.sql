@@ -72,6 +72,7 @@ GROUP BY players.name, games.title
 ORDER BY players.name, game_play_count DESC;
 
 -- Query that selects which game each player has played the most.
+-- Not able to get this one to work.
 
 SELECT
     players.name AS player_name,
