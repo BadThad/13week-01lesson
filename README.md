@@ -1,11 +1,11 @@
-# Player Activity Database
+# 🎮 Player Activity Database
 
 This project sets up a PostgreSQL server with tables for **players**, **games**, and **scores**.
 It uses **Docker** for containerization and **pgAdmin** for database management.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 - `docker-compose.yml` - Defines the Postgres database and pgAdmin containers.
 - `schema.sql` - SQL file to create the databse tables.
@@ -13,7 +13,7 @@ It uses **Docker** for containerization and **pgAdmin** for database management.
 - `queries.sql` - Some prepared queries to extract information from the database.
 - `README.md` - This documention!
 
-## How to Run This Project
+## ✅ How to Run This Project
 
 1. Make sure Docker and Docker Compose are installed.
 2. Open a terminal in the project folder.
